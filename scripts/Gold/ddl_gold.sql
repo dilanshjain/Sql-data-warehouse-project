@@ -20,8 +20,8 @@ Usage:
 
 IF OBJECT_ID('gold.dim_customers', 'V') IS NOT NULL
     DROP VIEW gold.dim_customers;
-IF OBJECT_ID('gold.dim_customers', 'V') IS NOT NULL
-    DROP VIEW gold.dim_customers;
+
+
 GO
 
 CREATE VIEW gold.dim_customers AS
